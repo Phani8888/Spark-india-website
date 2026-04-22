@@ -20,109 +20,25 @@ const Contact = () => {
 
   // Handle Annual Return click
   const handleAnnualReturn = () => {
-    window.open('https://acidindia.in/wp-content/uploads/2024/02/FORM-MGT-9-AY-2324.pdf', '_blank');
+    // window.open('https://acidindia.in/wp-content/uploads/2024/02/FORM-MGT-9-AY-2324.pdf', '_blank');
   };
 
   // Refs for scrolling to sections
-  const chennaiRef = useRef(null);
-  const bangaloreRef = useRef(null);
   const hyderabadRef = useRef(null);
-  const andhraRef = useRef(null);
-  const ahmedabadRef = useRef(null);
-  const mumbaiRef = useRef(null);
 
   const locations = [
-    { 
-      id: 'chennai', 
-      name: 'Chennai', 
-      ref: chennaiRef, 
-      title: 'CHENNAI - HEADQUARTERS',
-      sameAddress: false,
-      office: { 
-        address: ['New No.202, Old No.285, 1st Floor,', 'Avvai Shanmugam Salai,', 'Royapettah,', 'Chennai – 600 014'],
-        map: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.123456789!2d80.2656037!3d13.0479131!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5265b9a6d9c8b1%3A0x734b8d8b588c7c85!2sAcid%20India%20Limited!5e0!3m2!1sen!2sin!4v1649414129421!5m2!1sen!2sin' 
-      },
-      warehouse: { 
-        address: ['Plot No.5, Ground Floor,', 'Sree Mahalakshmi Nagar,', 'Numbal Village,', 'Chennai – 600 077'],
-        map: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15546.881312945132!2d80.13608866526435!3d13.053465527322608!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52619f8dccb22f%3A0x9aca7a330adb1b01!2sMahalakshmi%20Nagar%2C%20Poonamallee%2C%20Chennai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1651158009894!5m2!1sen!2sin' 
-      } 
-    },
-    { 
-      id: 'bangalore', 
-      name: 'Bangalore', 
-      ref: bangaloreRef, 
-      title: 'BANGALORE - BRANCH',
-      sameAddress: false,
-      office: { 
-        address: ['No.5, 1st Cross, Govt College Road,', 'Peenya 1st Stage,', 'Bangalore - 560 058'],
-        map: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.00043478314!2d77.51776511430491!3d13.035644016998022!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3d3040b84835%3A0x66b1ff3cc984cf29!2sAcid%20India%20limited!5e0!3m2!1sen!2sin!4v1651158672685!5m2!1sen!2sin' 
-      },
-      warehouse: { 
-        address: ['Site No.1, Municipal No.11-70-7/2,', 'Sy No.79/4, Peenya Village,', 'West New Extn, First Main Road,', 'Mahalakshmipura, Bangalore - 560 058'],
-        map: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.0870192494303!2d77.52787021430495!3d13.030130317118028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3dc091394c45%3A0x774570b492602ff4!2sACID%20INDIA%20BANGALORE%20BRANCH!5e0!3m2!1sen!2sin!4v1651158842238!5m2!1sen!2sin' 
-      } 
-    },
-    { 
+   { 
       id: 'hyderabad', 
       name: 'Hyderabad', 
       ref: hyderabadRef, 
       title: 'HYDERABAD - BRANCH',
       sameAddress: true,
       office: { 
-        address: ['7-3-145/3/60, Bapuji Nagar,', 'Kattedan Gagnpahad Village,', 'Rajendra Nagar Mandal,', 'Hyderabad - 500 073'],
-        map: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3809.2856298314805!2d78.42312651435216!3d17.301762509824172!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcbbda6b5eb9431%3A0xe9e446e0b947c082!2sAcid%20India%20Limited!5e0!3m2!1sen!2sin!4v1651159647595!5m2!1sen!2sin' 
+        address: ['5-15-A, Sri Hills Colony,', 'Almasguda,', 'Balapur,', 'R.R Dist.,', 'Hyderabad, Telangana - 500 058'],
+        map: 'https://maps.app.goo.gl/Gx5FBEj6W2DoUvzb6' 
       },
-      warehouse: { 
-        address: ['7-3-145/3/60, Bapuji Nagar,', 'Kattedan Gagnpahad Village,', 'Rajendra Nagar Mandal,', 'Hyderabad - 500 073'],
-        map: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3809.2856298314805!2d78.42312651435216!3d17.301762509824172!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcbbda6b5eb9431%3A0xe9e446e0b947c082!2sAcid%20India%20Limited!5e0!3m2!1sen!2sin!4v1651159647595!5m2!1sen!2sin' 
-      } 
-    },
-    { 
-      id: 'andhra', 
-      name: 'Andhra Pradesh', 
-      ref: andhraRef, 
-      title: 'ANDHRA PRADESH - BRANCH',
-      sameAddress: true,
-      office: { 
-        address: ['No.76-16-292, Ground Floor,', 'Ekalavya Nagar, 7th Line,', 'Bhavanipuram,', 'Vijayawada - 520 012'],
-        map: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15300.155957179633!2d80.58147129967895!3d16.524129166009022!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a35efcf00bc4545%3A0x5bd4dcc4b1201fb0!2sBhavanipuram%2C%20V%20D%20Puram%2C%20Vijayawada%2C%20Andhra%20Pradesh!5e0!3m2!1sen!2sin!4v1651161001663!5m2!1sen!2sin' 
-      },
-      warehouse: { 
-        address: ['No.76-16-292, Ground Floor,', 'Ekalavya Nagar, 7th Line,', 'Bhavanipuram,', 'Vijayawada - 520 012'],
-        map: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15300.155957179633!2d80.58147129967895!3d16.524129166009022!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a35efcf00bc4545%3A0x5bd4dcc4b1201fb0!2sBhavanipuram%2C%20V%20D%20Puram%2C%20Vijayawada%2C%20Andhra%20Pradesh!5e0!3m2!1sen!2sin!4v1651161001663!5m2!1sen!2sin' 
-      } 
-    },
-    { 
-      id: 'ahmedabad', 
-      name: 'Ahmedabad', 
-      ref: ahmedabadRef, 
-      title: 'GLOBAL FLAVOURS & INGREDIENTS PVT LTD - AHMEDABAD',
-      sameAddress: false,
-      office: { 
-        address: ['C,601 6th Floor, Signature 2,', 'Sarkhej Sanand Road,', 'Ahmedabad - 382 210'],
-        map: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d918.2460696877058!2d72.49249702448363!3d22.987605586921756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e9aeba60e48b9%3A0x1c34dd484b5858c0!2sSIGNATURE-2%2C%20Makarba%2C%20Sarkhej-Okaf%2C%20Gujarat%20382210!5e0!3m2!1sen!2sin!4v1651167354645!5m2!1sen!2sin' 
-      },
-      warehouse: { 
-        address: ['No.14, Super Estate, Behind Relief Hotel,', 'Sanand Chowkdi Sarkhej,', 'Ahmedabad - 382 210'],
-        map: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d918.255262672616!2d72.49169815131016!3d22.986253385108316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e9aeb0c3206a3%3A0x53ac3fd4bf6c63ce!2sXFPV%2BP3X%2C%20Sarkhej%2C%20Ahmedabad%2C%20Gujarat%20382210!5e0!3m2!1sen!2sin!4v1651167738442!5m2!1sen!2sin' 
-      } 
-    },
-    { 
-      id: 'mumbai', 
-      name: 'Maharashtra', 
-      ref: mumbaiRef, 
-      title: 'GLOBAL FLAVOURS & INGREDIENTS PVT LTD - MAHARASHTRA',
-      sameAddress: true,
-      office: { 
-        address: ['No.B-113, 1st Floor,', 'Runwal Commercial Complex,', 'Lal Bahadur Shastri Nagar,', 'Mulund West, Mumbai - 400 080'],
-        map: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3768.3592708123615!2d72.9434183143783!3d19.179504253696056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b8ffc0084f7b%3A0x8bfb0fa437ed48d!2sRunwal%20Commercial%20Complex!5e0!3m2!1sen!2sin!4v1651168003650!5m2!1sen!2sin' 
-      },
-      warehouse: { 
-        address: ['No.B-113, 1st Floor,', 'Runwal Commercial Complex,', 'Lal Bahadur Shastri Nagar,', 'Mulund West, Mumbai - 400 080'],
-        map: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3768.3592708123615!2d72.9434183143783!3d19.179504253696056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b8ffc0084f7b%3A0x8bfb0fa437ed48d!2sRunwal%20Commercial%20Complex!5e0!3m2!1sen!2sin!4v1651168003650!5m2!1sen!2sin' 
-      } 
-    },
-  ];
+   }  
+  ]
 
   const scrollToSection = (ref) => {
     if (ref.current) {
@@ -385,12 +301,12 @@ const Contact = () => {
       <section className="location-buttons">
         <div className="container">
           <div className="location-btn-group">
-            <button className="location-btn" onClick={() => scrollToSection(chennaiRef)}>Chennai</button>
-            <button className="location-btn" onClick={() => scrollToSection(bangaloreRef)}>Bangalore</button>
+            {/* <button className="location-btn" onClick={() => scrollToSection(chennaiRef)}>Chennai</button> */}
+            {/* <button className="location-btn" onClick={() => scrollToSection(bangaloreRef)}>Bangalore</button> */}
             <button className="location-btn" onClick={() => scrollToSection(hyderabadRef)}>Hyderabad</button>
-            <button className="location-btn" onClick={() => scrollToSection(andhraRef)}>Andhra Pradesh</button>
-            <button className="location-btn" onClick={() => scrollToSection(ahmedabadRef)}>Ahmedabad</button>
-            <button className="location-btn" onClick={() => scrollToSection(mumbaiRef)}>Maharashtra</button>
+            {/* <button className="location-btn" onClick={() => scrollToSection(andhraRef)}>Andhra Pradesh</button> */}
+            {/* <button className="location-btn" onClick={() => scrollToSection(ahmedabadRef)}>Ahmedabad</button> */}
+            {/* <button className="location-btn" onClick={() => scrollToSection(mumbaiRef)}>Maharashtra</button> */}
           </div>
         </div>
       </section>
@@ -402,12 +318,12 @@ const Contact = () => {
             <div className="info-card">
               <div className="info-icon">📧</div>
               <h3>General Enquiries</h3>
-              <p><a href="mailto:support@acidindia.in">support@acidindia.in</a> / <a href="tel:917824841841">+91 7824841841</a></p>
+              <p><a href="mailto:sparkfoodsandchemicals@sparkfoods.in">sparkfoodsandchemicals@sparkfoods.in</a> / <a href="tel:917093991217">+91 7093991217</a></p>
             </div>
             <div className="info-card">
               <div className="info-icon">💼</div>
               <h3>Sales Enquiries</h3>
-              <p><a href="mailto:sales@acidindia.in">sales@acidindia.in</a> / <a href="tel:919952965751">+91 9952965751</a></p>
+              <p><a href="mailto:sales@sparkfoods.in">sales@sparkfoods.in</a> / <a href="tel:919392211721">+91 9392211721</a></p>
             </div>
           </div>
         </div>

@@ -14,7 +14,7 @@ const Activities = () => {
 
   // Handle Annual Return click
   const handleAnnualReturn = () => {
-    window.open('https://acidindia.in/wp-content/uploads/2024/02/FORM-MGT-9-AY-2324.pdf', '_blank');
+    // window.open('https://acidindia.in/wp-content/uploads/2024/02/FORM-MGT-9-AY-2324.pdf', '_blank');
   };
 
   // Past Events Data
@@ -30,8 +30,8 @@ const Activities = () => {
       id: 2,
       title: "Bush Magic Bake",
       date: "Apr 20, 2022",
-      image: "https://acidindia.in/wp-content/uploads/2022/05/bushmagicgif-400x240.gif",
-      description: "Hello Everyone, Greetings! Bringing to you 'A Curtain Raiser' from Acid India Group. We are delighted to announce that, Our Prestigious Principal 'International Flavors & Fragrances (IFF)' have launched an exciting product range on 25.04.2022 called 'BUSH MAGIC...'"
+      // image: "https://acidindia.in/wp-content/uploads/2022/05/bushmagicgif-400x240.gif",
+      description: "Hello Everyone, Greetings! Bringing to you 'A Curtain Raiser' from Spark Foods and Chemicals. We are delighted to announce that, Our Prestigious Principal 'International Flavors & Fragrances (IFF)' have launched an exciting product range on 25.04.2022 called 'BUSH MAGIC...'"
     }
   ];
 
@@ -50,7 +50,7 @@ const Activities = () => {
       title: "How Russia's invasion of Ukraine deepened food crisis",
       date: "May 18, 2022",
       category: "Food Crisis",
-      image: "https://acidindia.in/wp-content/uploads/2022/05/ukraine-russia-crisis-400x250.jpg",
+      // image: "https://acidindia.in/wp-content/uploads/2022/05/ukraine-russia-crisis-400x250.jpg",
       description: "Just as the first Russian tanks and military vehicles rolled into the Ukrainian territory on February 24, commodity prices surged with oil..."
     },
     {
@@ -58,7 +58,7 @@ const Activities = () => {
       title: "Locust bean gum's newfound success in food stymied by supply shortages!",
       date: "May 18, 2022",
       category: "Food & Beverages, Food Crisis",
-      image: "https://acidindia.in/wp-content/uploads/2022/05/locust-bean-400x242.jpg",
+      // image: "https://acidindia.in/wp-content/uploads/2022/05/locust-bean-400x242.jpg",
       description: "As demand for the versatile ingredient found in everything from ice cream to plant-based foods has increased, soaring prices have prompted..."
     }
   ];

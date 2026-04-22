@@ -604,7 +604,7 @@ const Home = () => {
       title: "Top 10 Food Trends in 2022",
       date: "May 18, 2022",
       category: "Food & Beverages",
-      image: "https://acidindia.in/wp-content/uploads/2022/05/foods-2022-400x250.jpg",
+      // image: "https://acidindia.in/wp-content/uploads/2022/05/foods-2022-400x250.jpg",
       description: "The foodies and leaders in the food industry have released their predictions on the food trends of 2022. Often, these food and flavor...",
       link: "/blog/top-10-food-trends-in-2022",
       slug: "top-10-food-trends-in-2022"
@@ -614,7 +614,7 @@ const Home = () => {
       title: "How Russia's invasion of Ukraine deepened food crisis",
       date: "May 18, 2022",
       category: "Food Crisis",
-      image: "https://acidindia.in/wp-content/uploads/2022/05/ukraine-russia-crisis-400x250.jpg",
+      // image: "https://acidindia.in/wp-content/uploads/2022/05/ukraine-russia-crisis-400x250.jpg",
       description: "Just as the first Russian tanks and military vehicles rolled into the Ukrainian territory on February 24, commodity prices surged with oil...",
       link: "/blog/how-russias-invasion-of-ukraine-deepened-food-crisis",
       slug: "how-russias-invasion-of-ukraine-deepened-food-crisis"
@@ -624,7 +624,7 @@ const Home = () => {
       title: "Locust bean gum's newfound success in food stymied by supply shortages!",
       date: "May 18, 2022",
       category: "Food & Beverages, Food Crisis",
-      image: "https://acidindia.in/wp-content/uploads/2022/05/locust-bean-400x242.jpg",
+      // image: "https://acidindia.in/wp-content/uploads/2022/05/locust-bean-400x242.jpg",
       description: "As demand for the versatile ingredient found in everything from ice cream to plant-based foods has increased, soaring prices have prompted...",
       link: "/blog/locust-bean-gums-newfound-success-in-food-stymied-by-supply-shortages",
       slug: "locust-bean-gums-newfound-success-in-food-stymied-by-supply-shortages"
@@ -638,26 +638,26 @@ const Home = () => {
   ];
 
   // Awards data
-  const awards = [
-    {
-      id: 1,
-      title: "1st Runner Up Award",
-      description: "Presented to Acid India Group in the 'Nutri Alliance Big Treat 2018' event conducted by DuPont Nutrition & Health, India for job well done during the year 2018-2019.",
-      image: "https://acidindia.in/wp-content/uploads/2022/05/1st-Runner-Award.jpg"
-    },
-    {
-      id: 2,
-      title: "Certificate of Appreciation",
-      description: "To Mr. Nitin J. Asher, Chairman, Acid India Group for successfully completing the first module of 'Dairy Training Course' organized by Danisco, Gurgaon, India in September 2010.",
-      image: "https://acidindia.in/wp-content/uploads/2022/05/Certificate-of-Appreciation-award1.jpg"
-    },
-    {
-      id: 3,
-      title: "Gratitude Award",
-      description: "Recipient of the Gratitude Award from Britannia Industries in the year 2018 for partnering and contributing to their 'Delightful completion of 100 years' in the industry.",
-      image: "https://acidindia.in/wp-content/uploads/2022/05/Award3.jpg"
-    }
-  ];
+  // const awards = [
+  //   {
+  //     id: 1,
+  //     title: "1st Runner Up Award",
+  //     description: "Presented to Spark Foods and Chemicals in the 'Nutri Alliance Big Treat 2018' event conducted by DuPont Nutrition & Health, India for job well done during the year 2018-2019.",
+  //     // image: "https://acidindia.in/wp-content/uploads/2022/05/1st-Runner-Award.jpg"
+  //   },
+  //   {
+  //     id: 2,
+  //     title: "Certificate of Appreciation",
+  //     description: "To Mr. Nitin J. Asher, Chairman, Acid India Group for successfully completing the first module of 'Dairy Training Course' organized by Danisco, Gurgaon, India in September 2010.",
+  //     image: "https://acidindia.in/wp-content/uploads/2022/05/Certificate-of-Appreciation-award1.jpg"
+  //   },
+  //   {
+  //     id: 3,
+  //     title: "Gratitude Award",
+  //     description: "Recipient of the Gratitude Award from Britannia Industries in the year 2018 for partnering and contributing to their 'Delightful completion of 100 years' in the industry.",
+  //     image: "https://acidindia.in/wp-content/uploads/2022/05/Award3.jpg"
+  //   }
+  // ];
 
   // Brand partners
   const brands = [
@@ -683,7 +683,7 @@ const Home = () => {
 
   // Handle Annual Return click
   const handleAnnualReturn = () => {
-    window.open('https://acidindia.in/wp-content/uploads/2024/02/FORM-MGT-9-AY-2324.pdf', '_blank');
+    // window.open('https://acidindia.in/wp-content/uploads/2024/02/FORM-MGT-9-AY-2324.pdf', '_blank');
   };
 
   // Auto slide change
@@ -940,13 +940,13 @@ const Home = () => {
         <div className="container">
           <div className="chairman-content">
             <div className="chairman-image">
-              <img src="https://acidindia.in/wp-content/uploads/2022/05/chairman.jpg" alt="Chairman" />
+              {/* <img src="https://acidindia.in/wp-content/uploads/2022/05/chairman.jpg" alt="Chairman" /> */}
             </div>
             <div className="chairman-message">
               <div className="message-icon">📜</div>
               <h3>Chairman's <span className="highlight">Message</span></h3>
               <p>First and Foremost, I thank you for visiting our website.</p>
-              <p>On behalf of the Acid India Group, I deem it to be a matter of immense pleasure and privilege to talk to you through this portal of Acid India Family. No wonder, I feel so glad and fulfilling to realize the fact that our company is able to be a part of millions of lives in India through our food related products in their everyday use.</p>
+              <p>On behalf of the Acid India Group, I deem it to be a matter of immense pleasure and privilege to talk to you through this portal of Spark Foods and Chemicals Family. No wonder, I feel so glad and fulfilling to realize the fact that our company is able to be a part of millions of lives in India through our food related products in their everyday use.</p>
               <button className="read-more-btn" onClick={() => window.location.href = '/about-us#message'}>Read More</button>
             </div>
           </div>
@@ -961,15 +961,6 @@ const Home = () => {
             <p>The last 5 decades had certainly not been a bed of roses for us, however we have steadfastly converted many opportunities that came our way into honors and achievements. Here is a recapitulation of the various awards and accolades won from our principals, customers and associations</p>
           </div>
           
-          <div className="awards-grid">
-            {awards.map(award => (
-              <div key={award.id} className="award-card">
-                <img src={award.image} alt={award.title} />
-                <h4>{award.title}</h4>
-                <p>{award.description}</p>
-              </div>
-            ))}
-          </div>
           
           <div className="awards-btn-wrapper">
             <button className="preview-more-btn" onClick={() => window.location.href = '/awards-accolades'}>PREVIEW MORE</button>

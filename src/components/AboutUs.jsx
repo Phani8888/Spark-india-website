@@ -65,7 +65,7 @@ const AboutUs = () => {
   };
 
   const handleAnnualReturn = () => {
-    window.open('https://acidindia.in/wp-content/uploads/2024/02/FORM-MGT-9-AY-2324.pdf', '_blank');
+    // window.open('https://acidindia.in/wp-content/uploads/2024/02/FORM-MGT-9-AY-2324.pdf', '_blank');
   };
 
   return (
@@ -191,12 +191,12 @@ const AboutUs = () => {
             <div className="section-divider"></div>
           </div>
           <div className="company-content">
-            <p>Incorporated in the year 1970, Acid India is a highly reckoned firm, founded passionately by Shri. Jayant D.Asher, a recipient of Excellence award in Pharmaceutical Profession sciences. The company was led into core operations by his Brother Late Shri. Kamal D.Asher with whose help, it steadily progressed and affirmed a leading position in the Industry. With a significant share in both the established & emerging Markets of the nation, Acid India Limited is now a 52-year old ISO 9001:2015 certified organization operating under the leadership of Shri Nitin J Asher who is the current chairman of the company. No doubt, that he along with his younger brother Shri. Amrish J Asher, Managing Director, Acid India Limited propelled the Company's turnover in multi-folds by initiating phase by phase enhancement of geographic presence, collaborating with world class MNCs and creating new product segments.</p>
+            <p>Incorporated in the year 1970, Spark Foods is a highly reckoned firm, founded passionately by Shri. Jayant D.Asher, a recipient of Excellence award in Pharmaceutical Profession sciences. The company was led into core operations by his Brother Late Shri. Kamal D.Asher with whose help, it steadily progressed and affirmed a leading position in the Industry. With a significant share in both the established & emerging Markets of the nation, Acid India Limited is now a 52-year old ISO 9001:2015 certified organization operating under the leadership of Shri Nitin J Asher who is the current chairman of the company. No doubt, that he along with his younger brother Shri. Amrish J Asher, Managing Director, Acid India Limited propelled the Company's turnover in multi-folds by initiating phase by phase enhancement of geographic presence, collaborating with world class MNCs and creating new product segments.</p>
             <p>From a proprietary firm that once started promoting acids like hydrochloric acid, sulphuric acid and nitric acid in the early 70's, Acid India Limited is now a pioneering organization, manoeuvring its energy and expertise in business development, channel sales and value added selling of a comprehensive array of food ingredients and industrial chemicals across India. Moreover, In view of the rich and profound relationship with customers, Acid India is flourishing as the chosen channel partner to represent some of the renowned brands across the globe like International Flavours & Fragrances (IFF), 3M, Cargill, Olam Food Ingredients (Ofi), Weifang Ensign, Aditya Birla – Grasim Industries, Solaris Chemtech, Symrise and Bell Saffron respectively for their products.</p>
-            <p>Being Headquartered at Chennai, Acid India Limited has multiple branch offices with state-of-the-art warehouses in Tamilnadu, Karnataka, Maharashtra, Gujarat, Andhra Pradesh and Telengana. In addition to it, resident operations at Kerala, Rajasthan, Madhya Pradesh and Orissa with committed and dedicated human resource are result-oriented proven pathways embraced for accelerating growth and business development.</p>
+            <p>Being Headquartered at Chennai, Spark Foods and Chemicals has multiple branch offices with state-of-the-art warehouses in Tamilnadu, Karnataka, Maharashtra, Gujarat, Andhra Pradesh and Telengana. In addition to it, resident operations at Kerala, Rajasthan, Madhya Pradesh and Orissa with committed and dedicated human resource are result-oriented proven pathways embraced for accelerating growth and business development.</p>
             <p>Over many meritorious years of exploring the market, the company has been consistently contributing to Food-based industrial segments like Dairy, Bakery, Beverages, Confectionery, Nutritional Supplements, Edible Oils, Convenience Foods (RTC & RTE), Pharmaceuticals & Agro Chemicals, Pickling, Animal Feed and HoReCA. On the other hand, Acid India has stood apart also as a significant player in Non-Food based industrial segments like Electroplating & Metal Finishing, Personal Care & Cosmetics, Technical Textile, Water Treatment, Leather Processing, Detergents, Match Manufacturing, Paper Mills, Fertilizers and Cement Manufacturing.</p>
             <p>To enhance and achieve the goals of the organization, the skilled, experienced, trained and highly qualified professionals of Acid India Limited, interact with end users to know their ever increasing demands and specific requirements by taking support of Principals Manufacturers and find ultimate solutions to every challenge faced by customers.</p>
-            <p>In a nutshell, when you make a beginning with Acid India Limited, it will be an everlasting reliable source of support, as we believe firmly in long term relationships rather than a One Time Sale.</p>
+            <p>In a nutshell, when you make a beginning with Spark Foods and Chemicals, it will be an everlasting reliable source of support, as we believe firmly in long term relationships rather than a One Time Sale.</p>
           </div>
         </div>
       </section>
@@ -350,11 +350,11 @@ const AboutUs = () => {
           </div>
           <div className="message-content">
             <div className="chairman-image">
-              <img src="https://acidindia.in/wp-content/uploads/2022/05/chairman.jpg" alt="Chairman" />
+
             </div>
             <div className="message-text">
               <p className="quote">" We are ever in pursuit of becoming a Customer's Companion in his Growth Journey by offering Uncompromising Quality, Reliability and Sustainability in products and services. "</p>
-              <p>On behalf of the Acid India Group, I deem it to be a matter of immense pleasure and privilege to talk to you through this portal of Acid India Family. No wonder, I feel so glad and fulfilling to realize the fact that our company is able to be a part of millions of lives in India through our food related products in their everyday use.</p>
+              <p>On behalf of the Spark Foods and Chemicals, I deem it to be a matter of immense pleasure and privilege to talk to you through this portal of Spark Foods and Chemicals Family. No wonder, I feel so glad and fulfilling to realize the fact that our company is able to be a part of millions of lives in India through our food related products in their everyday use.</p>
               <p>We are proud of our heritage and remember with fondness all our predecessors since the 1970s, who had taken sincere efforts and made substantial contribution to the growth of this Company that has brought it to the stage and status where it is now. In sustaining this meritorious patrimony, our present teams of vibrant and trained professionals in various departments have been working strenuously towards that one firm objective of proposing and delivering the right kind of tailor made solutions to customers by understanding their needs and requirements.</p>
               <p className="quote-small">"When I Lost My Excuses, I Found My Results"</p>
               <p>We as a pioneering trading house of a comprehensive array of food ingredients and industrial chemicals, have confronted ups and downs in the ever changing and ever evolving global circumstances. Though 2020-2021 was marked not only by its challenges due to COVID-19, but also clearly moulded us as individuals and as an enduring organization to stay robust and immune in the new normal economic scenario.</p>
@@ -363,9 +363,9 @@ const AboutUs = () => {
               <p>Looking forward for a longer & stronger business relationship.</p>
               <p>Have a nice day.</p>
               <div className="signature">
-                <p><strong>Mr. Nitin J Asher</strong></p>
+                <p><strong>Mr. B.Malla Reddy</strong></p>
                 <p>Chairman</p>
-                <p>Acid India Limited</p>
+                <p>Spark Foods and Chemicals</p>
               </div>
             </div>
           </div>

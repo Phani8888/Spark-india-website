@@ -13,7 +13,7 @@ const Industries = () => {
 
   // Handle Annual Return click
   const handleAnnualReturn = () => {
-    window.open('https://acidindia.in/wp-content/uploads/2024/02/FORM-MGT-9-AY-2324.pdf', '_blank');
+    // window.open('https://acidindia.in/wp-content/uploads/2024/02/FORM-MGT-9-AY-2324.pdf', '_blank');
   };
 
   // Food Industries Data
@@ -69,7 +69,7 @@ const Industries = () => {
     {
       id: 9,
       title: "Plant-Based Meat Alternatives",
-      image: "https://acidindia.in/wp-content/uploads/2022/05/plant-based-meat.jpg",
+      // image: "https://acidindia.in/wp-content/uploads/2022/05/plant-based-meat.jpg",
       products: "Texturised vegetable protein (TVP), Isolated Soy Protein (ISP), Maltodextrin"
     },
     {
@@ -103,7 +103,7 @@ const Industries = () => {
     {
       id: 4,
       title: "Water Treatment",
-      image: "https://acidindia.in/wp-content/uploads/2022/05/water-treatment-industries.jpg",
+      // image: "https://acidindia.in/wp-content/uploads/2022/05/water-treatment-industries.jpg",
       products: "Phosphoric Acid, Citric Acid"
     },
     {
@@ -133,7 +133,7 @@ const Industries = () => {
     {
       id: 9,
       title: "Matches Manufacturing",
-      image: "https://acidindia.in/wp-content/uploads/2022/05/matchsticks.jpg",
+      // image: "https://acidindia.in/wp-content/uploads/2022/05/matchsticks.jpg",
       products: "Phosphoric acid"
     },
     {
