@@ -123,7 +123,7 @@ const Activities = () => {
                     <li><Link to="/about-us#company">Our Company</Link></li>
                     <li><Link to="/about-us#story">Our Story</Link></li>
                     <li><Link to="/about-us#process">Our Process</Link></li>
-                    <li><a href="#" onClick={(e) => { e.preventDefault(); handleAnnualReturn(); }}>Annual Return</a></li>
+                    <li><button onClick={(e) => { e.preventDefault(); handleAnnualReturn(); }} style={{ background: 'none', border: 'none', width: '100%', textAlign: 'left', cursor: 'pointer' }}>Annual Return</button></li>
                     <li><Link to="/about-us#strengths">Our Strengths</Link></li>
                     <li><Link to="/about-us#message">Our Chairman's Message</Link></li>
                     <li><Link to="/awards-accolades">Our Awards & Accolades</Link></li>
@@ -320,8 +320,8 @@ const Activities = () => {
               <h4>Stay in Touch</h4>
               <p>Keep up to date on social media</p>
               <div className="social-icons">
-                <a href="#" className="social-icon">📘</a>
-                <a href="#" className="social-icon">🔗</a>
+                <a href="https://facebook.com" className="social-icon" target="_blank" rel="noopener noreferrer">📘</a>
+                <a href="https://linkedin.com" className="social-icon" target="_blank" rel="noopener noreferrer">🔗</a>
               </div>
             </div>
           </div>
