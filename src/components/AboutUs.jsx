@@ -98,7 +98,7 @@ const AboutUs = () => {
                     <li><a href="#company" onClick={(e) => { e.preventDefault(); scrollToSection('company'); }}>Our Company</a></li>
                     <li><a href="#story" onClick={(e) => { e.preventDefault(); scrollToSection('story'); }}>Our Story</a></li>
                     <li><a href="#process" onClick={(e) => { e.preventDefault(); scrollToSection('process'); }}>Our Process</a></li>
-                    <li><a href="#" onClick={(e) => { e.preventDefault(); handleAnnualReturn(); }}>Annual Return</a></li>
+                    <li><a href="/" onClick={(e) => { e.preventDefault(); handleAnnualReturn(); }}>Annual Return</a></li>
                     <li><a href="#strengths" onClick={(e) => { e.preventDefault(); scrollToSection('strengths'); }}>Our Strengths</a></li>
                     <li><a href="#message" onClick={(e) => { e.preventDefault(); scrollToSection('message'); }}>Our Chairman's Message</a></li>
                     <li><Link to="/awards-accolades">Our Awards & Accolades</Link></li>
@@ -397,8 +397,8 @@ const AboutUs = () => {
               <h4>Stay in Touch</h4>
               <p>Keep up to date on social media</p>
               <div className="social-icons">
-                <a href="#" className="social-icon">📘</a>
-                <a href="#" className="social-icon">🔗</a>
+                <a href="/" className="social-icon">📘</a>
+                <a href="/" className="social-icon">🔗</a>
               </div>
             </div>
           </div>
